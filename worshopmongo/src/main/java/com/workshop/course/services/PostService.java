@@ -1,5 +1,6 @@
 package com.workshop.course.services;
 
+import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,4 +21,8 @@ public class PostService {
 		return post.orElseThrow(() -> new ObjectNotFoundException("Post not found"));
 	}
 
+	
+	public List<Post> findByTitle(String text){
+		return repo.findByTitleContainingIgnoreCase(text);
+	}
 }
