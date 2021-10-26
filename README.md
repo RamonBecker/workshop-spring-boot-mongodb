@@ -21,7 +21,7 @@ The MVC standard and the DTO standard were followed to develop this system.
 
 ## 📌 Class Diagram
 
-![diagrama de classe](![diagrama de classe](https://user-images.githubusercontent.com/44611131/138970582-dc5db291-04c0-476d-9416-ec9bd512768e.PNG))
+![diagrama de classe](https://user-images.githubusercontent.com/44611131/138970582-dc5db291-04c0-476d-9416-ec9bd512768e.PNG)
 
 
 ##  🔧 Install 
